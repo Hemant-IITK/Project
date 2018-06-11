@@ -1,0 +1,64 @@
+.LoginBox {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background: transparent;
+    text-align: center;
+    border-radius: 40px;
+    padding: 25px;
+    align-self: center;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.LoginBox:hover {
+    transform: scale(1.1);
+}
+
+.Input {
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.8;
+    border-radius: 13px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.07em;
+    border: 2px solid black;
+    background: transparent;
+    margin: 5px;
+}
+
+.Button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 12px;
+    width: 90px;
+    font-size: 1.01em;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.alignButton {
+    text-align: left;
+}
+
+.ButtonF {
+    width: fit-content;
+    padding: 8px;
+    border-radius: 13px;
+    background: transparent;
+    font-size: 1.01em;
+}
+
+.remember {
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+}
+
+.Input:hover,
+.Button:hover,
+.ButtonF:hover {
+    background: black;
+    color: white;
+    border: 2px solid white;
+}

@@ -1,0 +1,29 @@
+.Name {
+    width: 200px;
+    height: 30px;
+    padding: 7px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid rgb(61, 54, 54);
+    border-radius: 5px;
+    text-align: center;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.Name:hover {
+    transform: scale(1.05);
+}
+
+.Search {
+    width: 300px;
+    text-align: center;
+}
+
+.SearchF,
+.SearchL,
+.SearchS,
+.Name {
+    margin-top: 25px;
+}

@@ -1,0 +1,71 @@
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__input {
+    width: 200px;
+    height: 30px;
+    padding: 7px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid rgb(61, 54, 54);
+    border-radius: 5px;
+    text-align: center;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    left: 43px;
+    padding: 8px;
+    width: 200px;
+    top: 51px;
+    width: 200px;
+    border: 1px solid rgb(26, 5, 5);
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 2;
+    background: transparent;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#react-autowhatever-1 {
+    text-align: center;
+    background: gray;
+    padding: 8px;
+}
+
+.react-autosuggest__input:hover,
+.react-autosuggest__suggestions-container--open:hover {
+    background: transparent;
+    color: rgb(10, 7, 7);
+    transform: scale(1.05);
+}
+
+.Autosuggest {
+    text-align: center;
+}
